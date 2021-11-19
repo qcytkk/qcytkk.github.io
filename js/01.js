@@ -15,8 +15,8 @@ $(function () {
         $("#le1>.imga").removeClass("le1imgtt1");
         $("#le1>.imga").addClass("le1imgtt2");
 
-        $("#ri1>.imga").removeClass("ri1c1");
-        $("#ri1>.imga").addClass("ri1c2");
+//         $("#ri1>.imga").removeClass("ri1c1");
+//         $("#ri1>.imga").addClass("ri1c2");
 
         $("#aa").animate(function () {
             $("#aa").removeClass("aatr15").addClass("aatr90");
