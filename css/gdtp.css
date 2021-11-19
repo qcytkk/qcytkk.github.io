@@ -1,0 +1,42 @@
+#aa {
+        width: 200%;
+        height: 100px;
+        background-color: darkcyan;
+        overflow: hidden;
+        margin: auto -50%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        transition: transform .5s;
+        z-index: 10;
+    }
+
+    #a0 {
+        height: 50px;
+        background-color: #0f77fa;
+        animation: moveSlideshow 3s linear infinite;
+        overflow: hidden;
+        margin-left: -300px;
+        animation: diva0 2s linear infinite;
+    }
+
+    #a1 {
+        height: 50px;
+        background-color: #ff09a3;
+        animation: moveSlideshow 3s linear infinite;
+        overflow: hidden;
+        margin-right: -300px;
+        animation: diva1 2s linear infinite;
+    }
+    #aa li {
+        width: 150px;
+        height: 50px;
+        float: left;
+        line-height: 50px;
+        text-align: center;
+        color: aliceblue;
+        font-size: 30px;
+        font-weight: 800;
+    }

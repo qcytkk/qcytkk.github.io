@@ -1,0 +1,55 @@
+#imgbox{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+}
+
+#le1 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    z-index: 5;
+}
+#le1 img {
+    width: 70%;
+    position: absolute;
+    left: 90px;
+    
+    /* clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); */
+}
+.le1imgtt1{
+    top: 40%;
+    transform: translate(0, -50%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+.le1imgtt2{
+    transform: translate(0, 0);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
+
+}
+
+
+#ri1 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: -0px;
+    z-index: 5;
+}
+#ri1 img {
+    width: 70%;
+    position: absolute;
+    right: -30px;
+    bottom: 0px;
+}
+.ri1c1{
+    clip-path: polygon(0 55%, 100% 25%, 100% 100%, 0 100%);
+}
+.ri1c2{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+/* .imga{
+    clip-path: polygon(0 0, 75% 0, 75% 100%, 0 100%);
+} */
