@@ -21,6 +21,11 @@
         margin-left: -300px;
         animation: diva0 2s linear infinite;
     }
+    @keyframes diva0 {
+        100% {
+            transform: translateX(300px);
+        }
+    }
 
     #a1 {
         height: 50px;
@@ -29,6 +34,11 @@
         overflow: hidden;
         margin-right: -300px;
         animation: diva1 2s linear infinite;
+    }
+    @keyframes diva1 {
+        100% {
+            transform: translateX(-300px);
+        }
     }
     #aa li {
         width: 150px;
